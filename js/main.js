@@ -415,8 +415,11 @@
 		if( activeItem ) {
 			classie.remove(activeItem, 'list__item--active');
 		}
-		// list item gets class active
-		classie.add(spacesEl.querySelector('li[data-space="' + spacerefval + '"]'), 'list__item--active');
+		// list item gets class active (if the list item is currently shown in the list)
+		var listItem = spacesEl.querySelector('li[data-space="' + spacerefval + '"]')
+		if( listItem ) {
+			classie.add(listItem, 'list__item--active');
+		}
 
 		// remove class selected (if any) from current space
 		var activeSpaceArea = mallLevels[selectedLevel - 1].querySelector('svg > .map__space--selected');
