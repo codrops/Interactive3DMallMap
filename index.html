@@ -6,7 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Interactive 3D Mall Map | Codrops</title>
 		<meta name="description" content="An interactive 3D mall map concept with a search and pin indicators for every level. " />
-		<meta name="keywords" content="mall map, 3d, css, javascript, pin, levels, floor map" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
@@ -14,6 +13,7 @@
 		<script src="js/modernizr-custom.js"></script>
 	</head>
 	<body>
+		<!-- Figure Out Later -->
 		<svg class="hidden">
 			<defs>
 				<symbol id="icon-pin" viewBox="0 0 200 300">
@@ -212,14 +212,11 @@
 				</symbol>
 			</defs>
 		</svg>
+		<!-- Figure Out Later Above -->
 		<div class="container">
 			<div class="main">
 				<header class="codrops-header">
-					<div class="codrops-links">
-						<a class="codrops-icon codrops-icon--prev" href="" title="Previous Demo"><span>Previous Demo</span></a>
-						<a class="codrops-icon codrops-icon--drop" href="" title="Back to the article"><span>Back to the Codrops article</span></a>
-					</div>
-					<h1>Interactive Mall Map</h1>
+					<h1>Interactive DHS Map</h1>
 				</header>
 				<div class="mall">
 					<div class="surroundings">
@@ -558,6 +555,9 @@
 					<button class="boxbutton boxbutton--dark mallnav__button--all-levels" aria-label="Back to all levels"><svg class="icon icon--stack"><use xlink:href="#icon-stack"></use></svg></button>
 					<button class="boxbutton mallnav__button--down" aria-label="Go down"><svg class="icon icon--angle-down"><use xlink:href="#icon-angle-down"></use></svg></button>
 				</nav>
+
+				<!-- List Information -->
+
 				<div class="content">
 					<div class="content__item" data-space="1.01" data-category="1">
 						<h3 class="content__item-title">Apple Heart</h3>
@@ -884,6 +884,8 @@
 					<input id="sort-by-name" class="label__checkbox" type="checkbox" aria-label="Show alphabetically"/>
 					<label class="label__text">A - Z</label>
 				</span>
+
+				<!-- LIST ITEMS DO NOT TOUCH -->
 				<ul class="list grouped-by-category">
 					<li class="list__item" data-level="1" data-category="1" data-space="1.08"><a href="#" class="list__link">The Wizard</a></li>
 					<li class="list__item" data-level="1" data-category="1" data-space="1.01"><a href="#" class="list__link">Apple Heart</a></li>
