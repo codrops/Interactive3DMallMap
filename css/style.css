@@ -1,3 +1,12 @@
+/*
+THE ULTIMATE CTRL F GUIDE!!!!
+
+"PIN POS" = Pin Posistions
+
+"cata name" = Catagory Names
+
+
+*/
 @font-face {
 	font-family: 'codropsicons';
 	font-weight: normal;
@@ -524,6 +533,8 @@ button:focus {
 	transform: translate3d(0,-3em,0) translate3d(0,-100%,0);
 }
 
+/*text color*/
+
 .content__item[data-category='1'] .content__item-title {
 	color: #7cbf7f;
 }
@@ -533,7 +544,7 @@ button:focus {
 }
 
 .content__item[data-category='3'] .content__item-title {
-	color: #dc4b7c;
+	color: #8d65e0;
 }
 
 .content__item[data-category='4'] .content__item-title {
@@ -704,6 +715,8 @@ button:focus {
 	color: #c7c7c9;
 }
 
+/*cata name*/
+
 .grouped-by-category [data-category='1']:first-child::before,
 .grouped-by-category :not([data-category='1']) + [data-category='1']::before {
 	content: 'Nourish & Refresh';
@@ -718,8 +731,8 @@ button:focus {
 
 .grouped-by-category [data-category='3']:first-child::before,
 .grouped-by-category :not([data-category='3']) + [data-category='3']::before {
-	content: 'Swap & Give';
-	color: #dc4b7c;
+	content: 'Services';
+	color: #8d65e0;
 }
 
 .grouped-by-category [data-category='4']:first-child::before,
@@ -833,6 +846,8 @@ button:focus {
 	transition-delay: 0.4s;
 }
 
+/* pin color */
+
 .pin[data-category='1'] .icon--pin {
 	fill: #7cbf7f;
 }
@@ -840,7 +855,7 @@ button:focus {
 	fill: #6584c7;
 }
 .pin[data-category='3'] .icon--pin {
-	fill: #dc4b7c;
+	fill: #8d65e0;
 }
 .pin[data-category='4'] .icon--pin {
 	fill: #8d65e0;
@@ -873,6 +888,8 @@ button:focus {
 	fill-opacity: 1;
 }
 
+/*pin pos*/
+
 /* Pins for floor 1 */
 .pin--1-1 { top: 60vmin; left: 8vmin; }
 .pin--1-2 { top: 15vmin; left: 15vmin; }
@@ -902,15 +919,6 @@ button:focus {
 .pin--3-5 { top: 58vmin; left: 25vmin; }
 .pin--3-6 { top: 30vmin; left: 57vmin; }
 .pin--3-7 { top: 32vmin; left: 37vmin; }
-
-/* Pins for floor 4 */
-.pin--4-1 { top: 55vmin; left: 21vmin; }
-.pin--4-2 { top: 18vmin; left: 20vmin; }
-.pin--4-3 { top: 21vmin; left: 88vmin; }
-.pin--4-4 { top: 52vmin; left: 74vmin; }
-.pin--4-5 { top: 33vmin; left: 38vmin; }
-.pin--4-6 { top: 39vmin; left: 56vmin; }
-.pin--4-7 { top: 58vmin; left: 10vmin; }
 
 /* Mobile compatability */
 .open-search,
