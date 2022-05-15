@@ -217,7 +217,7 @@ button:focus {
 .levels {
 	width: 96vmin;
 	height: 64vmin;
-	margin: -32vmin 0 0 -48vmin;
+	margin: -40vmin 0 0 -50vmin;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 	-webkit-transform-style: preserve-3d;
@@ -249,7 +249,7 @@ button:focus {
 	line-height: 0;
 	position: absolute;
 	z-index: 100;
-	top: -2em;
+	top: 5em;
     left: 3.5em;
 	white-space: nowrap;
 	color: #7d7d86;
@@ -902,7 +902,7 @@ button:focus {
 .pin--1-9 { top: 8vmin; left: 51vmin; }
 
 /* Pins for floor 2 */
-.pin--2-1 { top: 7vmin; left: 22vmin; }
+.pin--2-1 { top: 40vmin; left: 25vmin; }
 .pin--2-2 { top: 39vmin; left: 5vmin; }
 .pin--2-3 { top: 21vmin; left: 84vmin; }
 .pin--2-4 { top: 39vmin; left: 53vmin; }
